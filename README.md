@@ -4,6 +4,8 @@ Bu proje, apartman yönetimi için geliştirilmiş ve Java dilinde yazılmış b
 
 ## Özellikler
 
+### Yönetici Yetkileri
+
 - **Kullanıcı Yönetimi**:
   - Kullanıcı ekleme, silme ve yetki verme işlemleri.
 - **Aidat Yönetimi**:
@@ -20,20 +22,20 @@ Bu proje, apartman yönetimi için geliştirilmiş ve Java dilinde yazılmış b
 - **Kullanıcı İşlemleri**:
   - Kullanıcı kayıt olma, giriş yapma.
 - **Aidat Görüntüleme**:
-  - Kullanıcının sistemdeki aidat kayıtlarını görüntülemesi.
+  - Kullanıcının sistemdeki kendisine ait olan aidat kayıtlarını görüntülemesi.
 - **Bakım/Onarım Görüntüleme**:
   - Kullanıcının sistemdeki bakım ve onarım kayıtlarını görüntülemesi.
 - **Bildirim Görüntüleme**:
   - Kullanıcının kendisine gönderilmiş bildirimleri görüntülemesi.
 - **Finansal Rapor Görüntüleme**:
   - Kullanıcının apartmanın gelir ve giderlerini şeffaf şekilde görüntülemesi.
-  
+
 ## Kurulum
 
 1. **Java JDK** ve **IntelliJ IDEA** yüklü olduğundan emin olun.
 2. Projeyi **IntelliJ IDEA**’da çalıştırın.
 3. “apartmanyonetimsistemi.sql” dosyasını MySQL veritabanında çalıştırın.
-4. MySQL giriş bilgilerinizi `src/com/project/Database.java` dosyasında düzenleyin.
+4. MySQL giriş bilgilerinizi `src /Database.java` dosyasında düzenleyin.
 5. Eğer projede eksik kütüphane varsa, aşağıdaki bağımlılıkları ekleyin:
    - `mysql-connector-j-9.1.0`
    - `jcalendar-1.4`
@@ -52,7 +54,7 @@ Katkıda bulunmak isterseniz, lütfen bir **pull request** gönderin veya bir **
 
 ## Lisans
 
-Bu proje şu an için lisanssızdır. Tüm hakları saklıdır.
+Bu proje şu an için lisanssızdır.
 
 ## Geliştiriciler
 
