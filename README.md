@@ -27,9 +27,7 @@ Bu proje, apartman yönetimi için geliştirilmiş ve Java dilinde yazılmış b
   - Kullanıcının kendisine gönderilmiş bildirimleri görüntülemesi.
 - **Finansal Rapor Görüntüleme**:
   - Kullanıcının apartmanın gelir ve giderlerini şeffaf şekilde görüntülemesi.
-
-> **Not**: Finansal raporlama ve bildirim gönderme işlemleri yalnızca yönetici yetkisi olan kullanıcılar tarafından yapılabilir.
-
+  
 ## Kurulum
 
 1. **Java JDK** ve **IntelliJ IDEA** yüklü olduğundan emin olun.
